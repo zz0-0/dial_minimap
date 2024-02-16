@@ -1,4 +1,4 @@
-# Dial_infinite_canvas
+# Dial_minimap
 
 This is a minimap package written in Dart.
 
