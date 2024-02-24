@@ -1,7 +1,5 @@
 # Dial_minimap
 
-**No code is written yet, this is a code repository set up for later development.**
-
 This is a minimap package written in Dart.
 
 ## Tech Stack
@@ -9,6 +7,31 @@ This is a minimap package written in Dart.
 **UI**: Flutter/Dart
 
 **State Management:** Riverpod
+
+## Install package and use it in your project
+
+**Ignore this section, the package hasn't been uploaded to pub.dev yet.**
+
+- Option 1: Flutter CLI
+
+```bash
+flutter pub get dial_minimap
+```
+
+- Option 2: Add to pubspec.yaml
+
+```yaml
+dependencies:
+  dial_minimap: ^0.1.1
+```
+
+or, add by path:
+
+```yaml
+dependencies:
+  dial_minimap:
+    path: ../dial_minimap
+```
 
 ## Run Locally
 
@@ -36,14 +59,24 @@ Run the project
 
 ```bash
 cd example/lib
+# click Run in Run|Debug|Profile
 ```
 
-- main.dart
-  - click Run
+- Option 2: Flutter CLI
+
+```bash
+cd example/lib
+flutter run
+# pick the platform you want to run with
+```
 
 ## Features
 
-- [ ] Minimap
+- [x] Minimap
+  - [x] Whenever the canvas changes, minimap shows the change also.
+  - [ ] Interactive minimap which help you quickly navigate to certain position on canvas.
+  - [ ] Minimap container can change size dynamiclly base on canvas size.
+  - [ ] Change minimap position base on user settings.
 - [ ] API
 
 ## Authors

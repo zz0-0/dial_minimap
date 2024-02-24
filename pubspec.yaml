@@ -1,6 +1,6 @@
 name: dial_minimap
 description: "A minimap package written in Dart"
-version: 0.0.2
+version: 0.1.1
 homepage:
 
 environment:
