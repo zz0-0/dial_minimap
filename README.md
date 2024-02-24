@@ -1,5 +1,7 @@
 # Dial_minimap
 
+**No code is written yet, this is a code repository set up for later development.**
+
 This is a minimap package written in Dart.
 
 ## Tech Stack
@@ -31,7 +33,13 @@ flutter pub get
 Run the project
 
 - Option 1: VSCode
-  - cd example/lib, click Run in the main.dart
+
+```bash
+cd example/lib
+```
+
+- main.dart
+  - click Run
 
 ## Features
 
