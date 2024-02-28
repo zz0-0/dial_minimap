@@ -1,5 +1,5 @@
 name: dial_minimap
-description: "A minimap package written in Dart"
+description: "A minimap package written in Flutter/Dart"
 version: 0.1.3
 homepage:
 

@@ -1,6 +1,6 @@
 # Dial_minimap
 
-This is a minimap package written in Dart.
+This is a minimap package written in Flutter/Dart.
 
 ## Tech Stack
 
